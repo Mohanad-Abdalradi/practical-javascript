@@ -31,5 +31,14 @@ function deleteTodo(position) {
     todos.splice(position, 1);
     displayTodos();
 }
-deleteTodo(0);
+
+deleteTodo(0)
+
+//functions and variables
+var myName ='Mohanad';
+    function myName(){
+    console.log(myName);
+    }
+    sayName();
+
 
