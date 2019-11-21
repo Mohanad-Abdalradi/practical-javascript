@@ -31,5 +31,5 @@ function deleteTodo(position) {
     todos.splice(position, 1);
     displayTodos();
 }
-deleteTodo(0)
+deleteTodo(0);
 
