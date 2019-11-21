@@ -32,4 +32,10 @@ function deleteTodo(position) {
     displayTodos();
 }
 deleteTodo(0)
+//functions and variables
+var myName ='Mohanad';
+    function myName(){
+    console.log(myName);
+    }
+    sayName();
 
