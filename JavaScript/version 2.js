@@ -36,6 +36,7 @@ deleteTodo(0)
 var myName ='Mohanad';
     function myName(){
     console.log(myName);
-    }
     sayName();
+    }
+
 
