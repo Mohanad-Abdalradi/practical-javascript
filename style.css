@@ -4,3 +4,25 @@ body{
     padding: 2;
     margin: 3;
 }
+#bob {
+    background-color: gold;
+    text-align: center;
+    color: blue;
+    font-family: 'patua one', 'cursive';
+    font-size: 4rem;
+    text-transform: capitalize;
+    padding: 20px 0;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    overflow: hidden;
+    animation:
+    typing 3.5s steps(50, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to { width: 100%}
+}
