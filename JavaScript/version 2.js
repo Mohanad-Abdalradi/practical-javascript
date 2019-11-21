@@ -41,8 +41,3 @@ var myName ='Mohanad';
     sayName();
     }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> version2
-
