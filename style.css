@@ -1,10 +1,10 @@
 
 body{
-    background-color: beige; 
+    background-color: rosybrown; 
     padding: 2;
     margin: 3;
 }
-#bob {
+#bob{
     background-color: gold;
     text-align: center;
     color: blue;
@@ -18,8 +18,8 @@ body{
     letter-spacing: .15em;
     overflow: hidden;
     animation:
-    typing 3.5s steps(50, end),
-    blinking-cursor .5s step-end infinite;
+    typing 4.5s steps(50, end),
+    blinking-cursor .5s step-end infinite
 }
 
 @keyframes typing {
