@@ -26,7 +26,7 @@ var myComputer = {
        console.log('My Todos', this.todos);
       },
 
-      addTodos: function(todo) {
+      addTodo: function(todo) {
         this.todos.push(todo)
         this.displayTodos();
       },
