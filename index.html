@@ -17,8 +17,34 @@
         Todos List
     </h1>
     <br><br>
-    <button id="displayTodosButton">Display Todos</button>
-    <button id="toggleAllButton">Todos All</button>
+
+    <div>
+    <button onclick="handlers.displayTodos()">Display Todos</button>
+    <button onclick="handlers.toggleAll()">Toggle All</button>
+    </div>
+
+    <div>
+    <button onclick="handlers.addTodo()">Add</button>
+    <input id="addTodoTextInput" type="text">
+    </div>
+
+    <div>
+    <button onclick="handlers.changeTodo()">Change Todo</button>
+    <input id="changeTodoPositionInput" type="number">
+    <input id="changeTodoTextInput" type="text">
+    </div>
+
+    <di>
+    <button onclick="handlers.deleteTodo()">Delete</button>
+    <input id="deleteTodoPositionInput" type="number">
+    </di>
+
+
+    <di>
+    <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+    <input id="toggleCompletedPositionInput" type="number">
+    </di>
+
   <script src="./JavaScript/version 1.js"></script>
   <script src="./JavaScript/version 2.js"></script>
   <script src="./JavaScript/version 3.js"></script>
@@ -26,5 +52,6 @@
   <script src="./JavaScript/version 5.js"></script>
   <script src="./JavaScript/version 6.js"></script>
   <script src="./JavaScript/version 7.js"></script>
+  <script src="./JavaScript/version 8.js"></script>
 </body>
 </html>
