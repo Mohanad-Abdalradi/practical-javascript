@@ -1,18 +1,19 @@
 
 body{
-    background-color: rosybrown; 
-    padding: 2;
-    margin: 3;
+    background-color: rosybrown;
+    padding: 30px;
+    margin: 10px;
 }
-#bob{
+
+#bob {
     background-color: gold;
     text-align: center;
     color: blue;
     font-family: 'patua one', 'cursive';
     font-size: 4rem;
     text-transform: capitalize;
-    padding: 20px 0;
-    border-right: .15em solid black;
+    padding: 15px 0;
+    border-right: .20em solid black;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -26,3 +27,34 @@ body{
     from {width: 0}
     to { width: 100%}
 }
+#addTodoTextInput,#toggleCompletedPositionInput{
+    background-color: wheat;
+    color: red;
+    text-align: center;
+    width: 209px;
+    padding: 8px 50px;
+    border: 2px solid peru;
+    }
+.ton {
+    
+    width: 200px;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 15px;
+    background-color: peachpuff;
+    color: blue;
+    border: 2px solid peru;
+}
+#changeTodoTextInput, #changeTodoPositionInput{
+    width: 50px;
+    background-color: wheat;
+    color: red;
+    text-align: center;
+    padding: 8px 50px;
+    border: 2px solid peru;
+}
+.toi {
+    padding: 5px 200px;
+    color: maroon;
+}
+
